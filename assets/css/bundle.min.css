@@ -11126,10 +11126,6 @@ fieldset:disabled .btn {
     }
 }
 
-.logo{
-    width: 200px;
-    height: 100px;
-}
 
 .navbar-nav {
     --bs-navbar-nav-hover-color: rgba(var(--bs-primary-rgb), 0.85);
