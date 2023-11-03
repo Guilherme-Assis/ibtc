@@ -32599,6 +32599,11 @@ fieldset:disabled .btn {
     content: "\F335"
 }
 
+.logo-light{
+    max-width: 250px;
+    max-height: 100px;
+}
+
 .hicon-long-stay-deal:before {
     content: "\F336"
 }
