@@ -11122,6 +11122,7 @@ fieldset:disabled .btn {
 
 @media (max-width:575.98px) {
     .navbar .navbar-brand .logo {
+        display: none;
         max-height: var(--bs-navbar-brand-mobile-max-height)
     }
 }
@@ -11143,12 +11144,14 @@ fieldset:disabled .btn {
 @media (max-width:575.98px) {
     .navbar-expand-sm .navbar-nav .dropdown .dropdown-menu,
     .navbar-expand-sm .navbar-nav .dropdown .dropdown-menu.mega-menu {
+        display: none;
         box-shadow: none !important
     }
 }
 
 @media (min-width:576px) {
     .navbar-expand-sm .navbar-nav .dropdown .dropdown-menu.mega-menu {
+        display: none;
         min-width: -moz-max-content;
         min-width: max-content
     }
@@ -11167,19 +11170,23 @@ fieldset:disabled .btn {
 @media (max-width:767.98px) {
     .navbar-expand-md .navbar-nav .dropdown .dropdown-menu,
     .navbar-expand-md .navbar-nav .dropdown .dropdown-menu.mega-menu {
+        display: none;
         box-shadow: none !important
     }
 }
 
 @media (min-width:768px) {
     .navbar-expand-md .navbar-nav .dropdown .dropdown-menu.mega-menu {
+        display: none;
         min-width: -moz-max-content;
         min-width: max-content
     }
     .navbar-expand-md .navbar-nav .dropdown .dropdown-toggle-hover {
+        display: none;
         position: initial
     }
     .navbar-expand-md .navbar-nav .dropdown .dropdown-toggle-hover .dropdown-toggle-icon {
+        
         width: unset;
         height: unset;
         position: unset;
